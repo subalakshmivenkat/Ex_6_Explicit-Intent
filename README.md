@@ -235,10 +235,9 @@ public class Secondactivity extends AppCompatActivity {
 }
 ```
 ## OUTPUT
-![373121010-38c4cb68-b84d-4fc8-a7a4-8175cad0ca08](https://github.com/user-attachments/assets/9e87f7fe-4d31-4bd5-bef4-ed4acc584869)
-![373121036-c0b10f09-ed7d-4889-a8f4-169dec5eee0e](https://github.com/user-attachments/assets/78d8567c-8acb-4e54-8fe2-b8805c5857b1)
-![373121036-c0b10f09-ed7d-4889-a8f4-169dec5eee0e](https://github.com/user-attachments/assets/7d7e4cb2-a5da-469b-8fbb-3fe08b66ba2d)
-![373121100-94fbe2a9-b82c-4780-bd79-18e3f4a7297a](https://github.com/user-attachments/assets/592a904f-3659-4faf-b916-6e08a01b6124)
+![373127613-0e4a5bcc-84b4-4e6c-9654-5b10655b77fb](https://github.com/user-attachments/assets/f46d44f3-5aee-4156-9a2c-a1e3d592ea0a)
+![373127624-2a39a7cd-851c-4d78-bbd6-b9eb75f0e564](https://github.com/user-attachments/assets/34ed9c50-9f44-453c-bb41-dea7c1d9a830)
+![373127627-b9b077a2-3949-4722-8670-573c9c29eccd](https://github.com/user-attachments/assets/3e57b533-b968-4695-b8d6-5ca1a2e87b45)
 
 ## RESULT
 Thus a Simple Android Application create a Explicit Intents using Android Studio is developed and executed successfully.

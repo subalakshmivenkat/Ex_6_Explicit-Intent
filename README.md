@@ -1,37 +1,22 @@
+# Date:19.09.2024
 # Ex.No:6 Implement an application that uses Explicit Intent using Android
-
-
 ## AIM:
-
 To create a two screens , first screen will take one number input from user. After click on Factorial button, second screen will open and it should display factorial of the same number using Explicit Intents.
-
-
 ## EQUIPMENTS REQUIRED:
-
 Latest Version Android Studio
-
 ## ALGORITHM:
 Step 1: Open Android Stdio and then click on File -> New -> New project.
-
 Step 2: Then type the Application name as smsintent and click Next.
-
 Step 3: Then select the Minimum SDK as shown below and click Next.
-
 Step 4: Then select the Empty Activity and click Next. Finally click Finish.
-
 Step 5: Design layout in activity_main.xml.
-
 Step 6: Send SMS and Display details give in MainActivity file.
-
 Step 7: Save and run the application.
-
 ## PROGRAM:
 ```
-/*
 Program to print the text “ExplicitIntent”.
 Developed by:Subalakshmi V
 Registeration Number :212222040162
-*/
 ```
 AndroidManifest.xml
 ```
@@ -71,9 +56,7 @@ Activity_main.xml
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
-
+    tools:context=".MainActivity"
     <TextView
         android:id="@+id/textview"
         android:layout_width="248dp"
@@ -91,7 +74,6 @@ Activity_main.xml
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.671" />
-
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="wrap_content"
@@ -104,7 +86,6 @@ Activity_main.xml
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.671" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
@@ -127,7 +108,6 @@ activity_second.xml:
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="147dp"
@@ -142,7 +122,6 @@ activity_second.xml:
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.447" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
@@ -165,10 +144,8 @@ activity_second.xml:
 MainActivity.java
 ```
 package com.example.exp6;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -180,7 +157,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
 public class MainActivity extends AppCompatActivity {
     EditText e1;
     Button res;
@@ -206,21 +182,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-    }
-}
+    }}
 ```
 Secondactivity.java:
 ```
 package com.example.exp6;
-
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 public class Secondactivity extends AppCompatActivity {
     TextView t1;
     @Override
@@ -238,6 +210,5 @@ public class Secondactivity extends AppCompatActivity {
 ![373127613-0e4a5bcc-84b4-4e6c-9654-5b10655b77fb](https://github.com/user-attachments/assets/f46d44f3-5aee-4156-9a2c-a1e3d592ea0a)
 ![373127624-2a39a7cd-851c-4d78-bbd6-b9eb75f0e564](https://github.com/user-attachments/assets/34ed9c50-9f44-453c-bb41-dea7c1d9a830)
 ![373127627-b9b077a2-3949-4722-8670-573c9c29eccd](https://github.com/user-attachments/assets/3e57b533-b968-4695-b8d6-5ca1a2e87b45)
-
 ## RESULT
 Thus a Simple Android Application create a Explicit Intents using Android Studio is developed and executed successfully.

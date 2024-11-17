@@ -207,8 +207,9 @@ public class Secondactivity extends AppCompatActivity {
 }
 ```
 ## OUTPUT
-![373127613-0e4a5bcc-84b4-4e6c-9654-5b10655b77fb](https://github.com/user-attachments/assets/f46d44f3-5aee-4156-9a2c-a1e3d592ea0a)
-![373127624-2a39a7cd-851c-4d78-bbd6-b9eb75f0e564](https://github.com/user-attachments/assets/34ed9c50-9f44-453c-bb41-dea7c1d9a830)
-![373127627-b9b077a2-3949-4722-8670-573c9c29eccd](https://github.com/user-attachments/assets/3e57b533-b968-4695-b8d6-5ca1a2e87b45)
+<img src="https://github.com/user-attachments/assets/f46d44f3-5aee-4156-9a2c-a1e3d592ea0a" width=200>
+<img src="https://github.com/user-attachments/assets/34ed9c50-9f44-453c-bb41-dea7c1d9a830" width=200>
+<img src="https://github.com/user-attachments/assets/3e57b533-b968-4695-b8d6-5ca1a2e87b45" width=200>
+
 ## RESULT
 Thus a Simple Android Application create a Explicit Intents using Android Studio is developed and executed successfully.
